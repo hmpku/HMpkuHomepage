@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Haimiao Zhang-Ph.D
+
+~~~
+{}{img_left}{hmphoto.png}{alt text}{131}{160}{http://people.kth.se/~euhanna/}
+PhD,\n [http://bicmr.pku.edu.cn/content/lists/12_catid54_3.html BICMR], \n[https://www.pku.edu.cn/ Peking University (PKU)]\n
+Yiheyuan Road, No. 05\n
+Beijing, China \n
+Phone: \+86 12345678 \n
+Fax: \+86 1 234 5678\n
+Email: /hmzhang/ \[@\] pku \[DOT\] edu\[DOT\] cn 
+~~~
+
+== About me
+I received the B.S. degrees in  Department of applied mathematics at Guiyang University in July, 2013. Then, I received Ph.D degree in Department of applied mathematics at Wuhan University([http://www.whu.edu.cn WHU]) in June, 2018. During I pursuiting the Ph.D degree, I visited Prof. Bin Dong at BICMR of Peking University([http://www.pku.edu.cn PKU]).  
+
+== Research
+My research interests include 
+- Convex Optimisation  
+- Distributed Algorithms
+- Real-time Sensor Networking
+- Wireless Networks
+- Machine Learning
+
+[research.html Find out more].
+=== Recent Publications 
+. E. Ghadimi, H. R. Feyzmahdavian, and M. Johansson, \"Global convergence of the heavy-ball method for convex optimization\",  In ECC'15: European Control Conference, 2015.
+. E. Ghadimi, A. Teixeira, I. Shames, and M. Johansson \" Optimal parameter selection for the alternating direction method of
+multipliers (ADMM): quadratic problems \", IEEE Transactions on Automatic Control, 2015. \[[http://arxiv.org/abs/1306.2454 arxiv]\]
+. E. Ghadimi, A. Teixeira, M. Rabbat, and M. Johansson, \"The ADMM algorithm for distributed averaging: Convergence rates and optimal parameter selection\", In Proceedings of the 48th Asilomar Conference on Signals, Systems and Computers, 2014. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \]
+. E. Ghadimi, O. Landsiedel, P. Soldati, S. Duquennoy, and M. Johansson, \"Opportunistic Routing in Low Duty-Cycle Wireless Sensor Networks\", ACM Transactions on Senor Networks, 2014. \[[pub/oppTOSN.pdf pdf]\]
+
+[publications.html Full list of publications].
+\n
+[cv.pdf A brief cv].
