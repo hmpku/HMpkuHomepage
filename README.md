@@ -1,3 +1,3 @@
 # homepagetest
-[test]
-https://cleverzh.github.io/homepagetest/index.html
+[Here](https://cleverzh.github.io/homepagetest/index.html) is my homepage
+
