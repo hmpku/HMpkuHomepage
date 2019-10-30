@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#coding:utf8
 """jemdoc version 0.7.3, 2012-11-27."""
 
 # Copyright (C) 2007-2012 Jacob Mattingley (jacobm@stanford.edu).
@@ -297,6 +297,8 @@ def parseconf(cns):
   syntax = {}
   warn = False # jem. make configurable?
   # manually add the defaults as a file handle.
+  # sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
+  # fs = [io.BytesIO(standardconf().encode('gb18030'))]
   fs = [io.BytesIO(standardconf().encode('utf-8'))]
   for sname in cns:
     fs.append(io.open(sname, 'rb'))
@@ -377,7 +379,15 @@ def out(f, s):
   if sys.version_info[0] == 2 and type(s) is StringType:
     f.write(s.decode('utf-8'))
   else:
+    # print('s=',s)
+    # f = open(s,"w",encoding='utf-8') 
     f.write(s)
+
+# def out(f, s):
+#   f.write(s)
+
+
+
 
 def mathjaxussub(link):
   link = link.replace('_', 'UNDERSCORE65358')
@@ -1550,7 +1560,8 @@ def procfile(f):
     out(f.outf, f.conf['footerstart'])
     if showlastupdated:
       if showlastupdatedtime:
-        ts = '%Y-%m-%d %H:%M:%S %Z'
+        ts = '%Y-%m-%d %H:%M:%S CST'
+        # ts = '%Y-%m-%d %H:%M:%S %Z'
       else:
         ts = '%Y-%m-%d'
       s = time.strftime(ts, time.localtime(time.time()))
@@ -1626,8 +1637,9 @@ def main():
     else:
       thisout = outname
 
-    infile = io.open(inname, 'rUb')
-    outfile = io.open(thisout, 'w')
+    infile = io.open(inname, 'rb')
+    outfile = open(thisout, 'w',encoding='utf-8')
+    # outfile = io.open(thisout, 'w')
 
 #    print(infile.read())
     f = controlstruct(infile, outfile, conf, inname)
