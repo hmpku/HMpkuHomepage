@@ -1,0 +1,12 @@
+Zhang, Haimiao, Bin Dong, and Baodong Liu. A Reweighted Joint Spatial-Radon Domain CT Image Reconstruction Model for Metal Artifact Reduction. SIAM Journal on Imaging Sciences 11(1): 707-733, 2018.
+
+@article{zhang2018reweighted,
+  title={A Reweighted Joint Spatial-Radon Domain CT Image Reconstruction Model for Metal Artifact Reduction},
+  author={Zhang, Haimiao and Dong, Bin and Liu, Baodong},
+  journal={SIAM Journal on Imaging Sciences},
+  volume={11},
+  number={1},
+  pages={707--733},
+  year={2018},
+  publisher={SIAM}
+}

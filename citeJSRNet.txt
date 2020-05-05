@@ -1,0 +1,16 @@
+Zhang, Haimiao, Bin Dong, and Baodong Liu. JSR-Net: A Deep Network for Joint Spatial-radon Domain CT Reconstruction from Incomplete Data. In 2019 IEEE International Conference on Acoustics, Speech, and Signal Processing, ICASSP 2019 - Proceedings, 3657-3661, 2019.
+
+@inproceedings{haimiao2019JSRNet,
+title = "JSR-Net: A Deep Network for Joint Spatial-radon Domain CT Reconstruction from Incomplete Data",
+author = "Haimiao Zhang and Bin Dong and Baodong Liu",
+year = "2019",
+month = "5",
+day = "1",
+doi = "10.1109/ICASSP.2019.8682178",
+language = "English (US)",
+series = "ICASSP, IEEE International Conference on Acoustics, Speech and Signal Processing - Proceedings",
+publisher = "Institute of Electrical and Electronics Engineers Inc.",
+pages = "3657--3661",
+booktitle = "2019 IEEE International Conference on Acoustics, Speech, and Signal Processing, ICASSP 2019 - Proceedings",
+note = "44th IEEE International Conference on Acoustics, Speech, and Signal Processing, ICASSP 2019 ; Conference date: 12-05-2019 Through 17-05-2019",
+}
